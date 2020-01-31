@@ -1,0 +1,24 @@
+unit utuniframe_jhdd;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIFrame;
+
+type
+  tuniframe_jhdd = class(TUniFrame)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.dfm}
+
+RegisterClass(tuniframe_jhdd);
+
+end.

@@ -1,0 +1,270 @@
+menu.exe: 00002544: 11:48:34 []:>--------------------------------------------------------------<
+menu.exe: 00002544: 11:48:34 [TUniServerModule]:Server First Init.
+menu.exe: 00002544: 11:48:35 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00002544: 11:48:35 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00002544: 11:48:35 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00001C38: 11:52:05 []:>--------------------------------------------------------------<
+menu.exe: 00001C38: 11:52:05 [TUniServerModule]:Server First Init.
+menu.exe: 00001C38: 11:52:05 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00001C38: 11:52:05 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+menu.exe: 00001C38: 11:52:05 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001C38: 11:52:05 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 0000253C: 11:52:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Q1S1vZiZWo10567B241 ) : Addr: $007CB412
+menu.exe: 0000172C: 11:53:36 []:>--------------------------------------------------------------<
+menu.exe: 0000172C: 11:53:36 [TUniServerModule]:Server First Init.
+menu.exe: 0000172C: 11:53:36 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+menu.exe: 0000172C: 11:53:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 0000172C: 11:53:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 0000108C: 11:53:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: eBvlW8O9UH10567B330 ) : Addr: $007CB412
+menu.exe: 0000172C: 11:53:51 [TUniServerModule]:Shutting Down Server.
+menu.exe: 0000172C: 11:53:51 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 0000172C: 11:53:52 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 0000172C: 11:53:52 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 0000172C: 11:53:52 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 0000172C: 11:53:52 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 0000172C: 11:53:52 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 0000172C: 11:53:52 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 0000172C: 11:53:52 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 0000172C: 11:53:52 []:<-------------------------------------------------------------->
+menu.exe: 0000172C: 11:53:52 [Terminated]:Exit Code: 0
+menu.exe: 00001A00: 11:54:11 []:>--------------------------------------------------------------<
+menu.exe: 00001A00: 11:54:11 [TUniServerModule]:Server First Init.
+menu.exe: 00001A00: 11:54:11 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00001A00: 11:54:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001A00: 11:54:11 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002378: 11:54:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: rsni7akYvZ10567B39A ) : Addr: $007CB412
+menu.exe: 00001E34: 11:55:35 [127.0.0.1]:EClassNotFound : Class node2 not found : Addr: $0046750A
+menu.exe: 00002994: 11:55:55 [127.0.0.1]:EClassNotFound : Class UniFrame1 not found : Addr: $0046750A
+menu.exe: 000012BC: 11:56:51 []:>--------------------------------------------------------------<
+menu.exe: 000012BC: 11:56:51 [TUniServerModule]:Server First Init.
+menu.exe: 000012BC: 11:56:51 [TUniServerModule]:Debug Mode = ON
+menu.exe: 000012BC: 11:56:51 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+menu.exe: 000012BC: 11:56:51 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 000012BC: 11:56:51 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002030: 11:56:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Gmuv1xUuKN10567B42C ) : Addr: $007CB412
+menu.exe: 000007B4: 11:58:16 []:>--------------------------------------------------------------<
+menu.exe: 000007B4: 11:58:16 [TUniServerModule]:Server First Init.
+menu.exe: 000007B4: 11:58:16 [TUniServerModule]:Global Cache Folder Erased. <8> Files deleted.
+menu.exe: 000007B4: 11:58:16 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 000007B4: 11:58:16 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00001948: 11:58:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: qv7kWRzupb10567B47A ) : Addr: $007CB412
+menu.exe: 000007B4: 12:04:46 [TUniServerModule]:Shutting Down Server.
+menu.exe: 000007B4: 12:04:46 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 000007B4: 12:04:46 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 000007B4: 12:04:46 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 000007B4: 12:04:46 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 000007B4: 12:04:46 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 000007B4: 12:04:47 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 000007B4: 12:04:47 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 000007B4: 12:04:47 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 000007B4: 12:04:47 []:<-------------------------------------------------------------->
+menu.exe: 000007B4: 12:04:47 [Terminated]:Exit Code: 0
+menu.exe: 000028A0: 12:04:53 []:>--------------------------------------------------------------<
+menu.exe: 000028A0: 12:04:53 [TUniServerModule]:Server First Init.
+menu.exe: 000028A0: 12:04:53 [TUniServerModule]:Debug Mode = ON
+menu.exe: 000028A0: 12:04:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 000028A0: 12:04:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 000026D0: 12:04:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: I3LRux58P310567B4DC ) : Addr: $007CB412
+menu.exe: 00001100: 12:05:20 []:>--------------------------------------------------------------<
+menu.exe: 00001100: 12:05:20 [TUniServerModule]:Server First Init.
+menu.exe: 00001100: 12:05:20 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00001100: 12:05:20 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+menu.exe: 00001100: 12:05:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001100: 12:05:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 000024F8: 12:05:26 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: M8EBSjIbke10567B6A8 ) : Addr: $007CB412
+menu.exe: 00001324: 12:07:53 []:>--------------------------------------------------------------<
+menu.exe: 00001324: 12:07:53 [TUniServerModule]:Server First Init.
+menu.exe: 00001324: 12:07:53 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+menu.exe: 00001324: 12:07:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001324: 12:07:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00001324: 12:08:40 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00001324: 12:08:40 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00001324: 12:08:40 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00001324: 12:08:40 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00001324: 12:08:40 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00001324: 12:08:40 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00001324: 12:08:40 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00001324: 12:08:40 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00001324: 12:08:40 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00001324: 12:08:40 []:<-------------------------------------------------------------->
+menu.exe: 00001324: 12:08:40 [Terminated]:Exit Code: 0
+menu.exe: 00001518: 12:08:48 []:>--------------------------------------------------------------<
+menu.exe: 00001518: 12:08:48 [TUniServerModule]:Server First Init.
+menu.exe: 00001518: 12:08:48 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00001518: 12:08:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001518: 12:08:48 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002528: 12:08:58 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ePNk8dnQBK10567B775 ) : Addr: $007CB412
+menu.exe: 00002848: 12:13:48 []:>--------------------------------------------------------------<
+menu.exe: 00002848: 12:13:48 [TUniServerModule]:Server First Init.
+menu.exe: 00002848: 12:13:48 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00002848: 12:13:48 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+menu.exe: 00002848: 12:13:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00002848: 12:13:48 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002A9C: 12:13:49 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: h6O5Aq4vZJ10567B7B9 ) : Addr: $007CB412
+menu.exe: 00002B94: 12:16:48 []:>--------------------------------------------------------------<
+menu.exe: 00002B94: 12:16:48 [TUniServerModule]:Server First Init.
+menu.exe: 00002B94: 12:16:48 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00002B94: 12:16:48 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+menu.exe: 00002B94: 12:16:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00002B94: 12:16:48 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002944: 12:16:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 7VLp3G2MxF10567B914 ) : Addr: $007CB412
+menu.exe: 000005A0: 12:17:22 []:>--------------------------------------------------------------<
+menu.exe: 000005A0: 12:17:22 [TUniServerModule]:Server First Init.
+menu.exe: 000005A0: 12:17:22 [TUniServerModule]:Debug Mode = ON
+menu.exe: 000005A0: 12:17:22 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+menu.exe: 000005A0: 12:17:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 000005A0: 12:17:22 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00000674: 12:17:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: EzqdY7rHXq10567B9E4 ) : Addr: $007CB412
+menu.exe: 00001E08: 12:18:45 []:>--------------------------------------------------------------<
+menu.exe: 00001E08: 12:18:45 [TUniServerModule]:Server First Init.
+menu.exe: 00001E08: 12:18:45 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00001E08: 12:18:45 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+menu.exe: 00001E08: 12:18:45 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001E08: 12:18:45 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 000002C4: 12:18:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: gT5lo6jGOs10567BA0C ) : Addr: $007CB412
+menu.exe: 00000660: 13:04:39 []:>--------------------------------------------------------------<
+menu.exe: 00000660: 13:04:40 [TUniServerModule]:Server First Init.
+menu.exe: 00000660: 13:04:40 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+menu.exe: 00000660: 13:04:40 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00000660: 13:04:40 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002B4C: 13:04:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: xZNMqfOqZP10567BA6B ) : Addr: $007CB412
+menu.exe: 00000660: 13:07:00 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00000660: 13:07:00 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00000660: 13:07:00 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00000660: 13:07:00 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00000660: 13:07:00 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00000660: 13:07:00 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00000660: 13:07:00 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00000660: 13:07:00 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00000660: 13:07:00 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00000660: 13:07:00 []:<-------------------------------------------------------------->
+menu.exe: 00000660: 13:07:00 [Terminated]:Exit Code: 0
+menu.exe: 00001C80: 13:07:19 []:>--------------------------------------------------------------<
+menu.exe: 00001C80: 13:07:19 [TUniServerModule]:Server First Init.
+menu.exe: 00001C80: 13:07:19 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001C80: 13:07:19 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00001AF4: 13:07:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Eu8bcR1j2O10567C76E ) : Addr: $007CB412
+menu.exe: 00000F20: 13:07:27 [127.0.0.1]:EClassNotFound : Class node3 not found : Addr: $0046750A
+menu.exe: 00000F20: 13:07:30 [127.0.0.1]:EClassNotFound : Class node2 not found : Addr: $0046750A
+menu.exe: 00001C80: 13:14:03 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00001C80: 13:14:04 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00001C80: 13:14:04 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00001C80: 13:14:04 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00001C80: 13:14:04 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00001C80: 13:14:04 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00001C80: 13:14:04 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00001C80: 13:14:04 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00001C80: 13:14:04 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00001C80: 13:14:04 []:<-------------------------------------------------------------->
+menu.exe: 00001C80: 13:14:04 [Terminated]:Exit Code: 0
+menu.exe: 00001E80: 13:17:53 []:>--------------------------------------------------------------<
+menu.exe: 00001E80: 13:17:53 [TUniServerModule]:Server First Init.
+menu.exe: 00001E80: 13:17:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001E80: 13:17:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00001430: 13:17:58 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: S2D4YkGxWe10567C798 ) : Addr: $007CB412
+menu.exe: 00000F50: 13:18:23 [127.0.0.1]:EClassNotFound : Class node2 not found : Addr: $0046750A
+menu.exe: 00001E80: 13:19:52 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00001E80: 13:19:52 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00001E80: 13:19:53 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00001E80: 13:19:53 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00001E80: 13:19:53 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00001E80: 13:19:53 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00001E80: 13:19:53 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00001E80: 13:19:53 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00001E80: 13:19:53 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00001E80: 13:19:53 []:<-------------------------------------------------------------->
+menu.exe: 00001E80: 13:19:53 [Terminated]:Exit Code: 0
+menu.exe: 00000D18: 13:20:00 []:>--------------------------------------------------------------<
+menu.exe: 00000D18: 13:20:00 [TUniServerModule]:Server First Init.
+menu.exe: 00000D18: 13:20:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00000D18: 13:20:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 000026E4: 13:20:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5EIagDPR4k10567CA77 ) : Addr: $007CB412
+menu.exe: 00002A3C: 13:20:11 [127.0.0.1]:EClassNotFound : Class node2 not found : Addr: $0046750A
+menu.exe: 00002A3C: 13:20:14 [127.0.0.1]:EClassNotFound : Class node3 not found : Addr: $0046750A
+menu.exe: 00000D18: 13:21:02 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00000D18: 13:21:02 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00000D18: 13:21:02 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00000D18: 13:21:02 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00000D18: 13:21:02 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00000D18: 13:21:02 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00000D18: 13:21:02 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00000D18: 13:21:02 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00000D18: 13:21:02 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00000D18: 13:21:02 []:<-------------------------------------------------------------->
+menu.exe: 00000D18: 13:21:02 [Terminated]:Exit Code: 0
+menu.exe: 00000E90: 13:21:08 []:>--------------------------------------------------------------<
+menu.exe: 00000E90: 13:21:08 [TUniServerModule]:Server First Init.
+menu.exe: 00000E90: 13:21:08 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00000E90: 13:21:08 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 0000227C: 13:21:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: xgwGH26Ozc10567CB05 ) : Addr: $007CB412
+menu.exe: 00000E90: 13:21:41 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00000E90: 13:21:41 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00000E90: 13:21:42 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00000E90: 13:21:42 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00000E90: 13:21:42 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00000E90: 13:21:42 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00000E90: 13:21:42 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00000E90: 13:21:42 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00000E90: 13:21:42 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00000E90: 13:21:42 []:<-------------------------------------------------------------->
+menu.exe: 00000E90: 13:21:42 [Terminated]:Exit Code: 0
+menu.exe: 00001F40: 13:22:21 []:>--------------------------------------------------------------<
+menu.exe: 00001F40: 13:22:21 [TUniServerModule]:Server First Init.
+menu.exe: 00001F40: 13:22:21 [TUniServerModule]:Debug Mode = ON
+menu.exe: 00001F40: 13:22:21 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001F40: 13:22:21 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00000DD4: 13:23:06 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: XJbwr1avOB10567CB56 ) : Addr: $007CB412
+menu.exe: 00001888: 13:23:30 [127.0.0.1]:EClassNotFound : Class TUniFrame3 not found : Addr: $0046750A
+menu.exe: 00000AB4: 13:25:26 []:>--------------------------------------------------------------<
+menu.exe: 00000AB4: 13:25:26 [TUniServerModule]:Server First Init.
+menu.exe: 00000AB4: 13:25:26 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+menu.exe: 00000AB4: 13:25:26 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00000AB4: 13:25:26 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 000020EC: 13:25:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: dSo2ENLFDu10567CBB1 ) : Addr: $007CB412
+menu.exe: 00002AA4: 13:25:36 [127.0.0.1]:EClassNotFound : Class TUniFrame3 not found : Addr: $0046750A
+menu.exe: 00002AA4: 13:25:38 [127.0.0.1]:EClassNotFound : Class node2 not found : Addr: $0046750A
+menu.exe: 00002AA4: 13:25:39 [127.0.0.1]:EClassNotFound : Class node3 not found : Addr: $0046750A
+menu.exe: 00002B90: 13:26:01 [127.0.0.1]:EClassNotFound : Class TUniFrame3 not found : Addr: $0046750A
+menu.exe: 00000AB4: 13:28:24 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00000AB4: 13:28:24 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00000AB4: 13:28:24 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00000AB4: 13:28:24 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00000AB4: 13:28:24 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00000AB4: 13:28:24 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00000AB4: 13:28:24 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00000AB4: 13:28:24 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00000AB4: 13:28:24 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00000AB4: 13:28:24 []:<-------------------------------------------------------------->
+menu.exe: 00000AB4: 13:28:24 [Terminated]:Exit Code: 0
+menu.exe: 00001090: 13:28:30 []:>--------------------------------------------------------------<
+menu.exe: 00001090: 13:28:30 [TUniServerModule]:Server First Init.
+menu.exe: 00001090: 13:28:30 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001090: 13:28:30 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 000004D4: 13:28:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Ww5M1Cq4Dx10567CCA0 ) : Addr: $007CB412
+menu.exe: 00001090: 13:29:48 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00001090: 13:29:48 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00001090: 13:29:49 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00001090: 13:29:49 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00001090: 13:29:49 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00001090: 13:29:49 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00001090: 13:29:49 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00001090: 13:29:49 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00001090: 13:29:49 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00001090: 13:29:49 []:<-------------------------------------------------------------->
+menu.exe: 00001090: 13:29:49 [Terminated]:Exit Code: 0
+menu.exe: 00002314: 13:30:36 []:>--------------------------------------------------------------<
+menu.exe: 00002314: 13:30:36 [TUniServerModule]:Server First Init.
+menu.exe: 00002314: 13:30:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00002314: 13:30:36 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00000C44: 13:30:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DCjvzngEpd10567CD56 ) : Addr: $007CB412
+menu.exe: 00002314: 13:31:45 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00002314: 13:31:45 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00002314: 13:31:46 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00002314: 13:31:46 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00002314: 13:31:46 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00002314: 13:31:46 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00002314: 13:31:46 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00002314: 13:31:46 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00002314: 13:31:46 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00002314: 13:31:46 []:<-------------------------------------------------------------->
+menu.exe: 00002314: 13:31:46 [Terminated]:Exit Code: 0

@@ -1,0 +1,139 @@
+unit uMenu_entity;
+
+interface
+
+uses
+  SysUtils, Generics.Collections, Aurelius.Mapping.Attributes, Aurelius.Types.Blob,
+   Aurelius.Types.DynamicProperties, Aurelius.Types.Nullable, Aurelius.Types.Proxy,
+    Aurelius.Criteria.Dictionary,System.Classes;
+
+type
+  Tmenu = class;
+  TmenuTableDictionary = class;
+  
+  [Entity]
+  [Table('menu')]
+  [Id('Fid', TIdGenerator.IdentityOrSequence)]
+  Tmenu = class
+  private
+    [Column('bh', [], 255)]
+    Fbh: Nullable<string>;
+    
+    [Column('menu_name', [], 255)]
+    Fmenu_name: Nullable<string>;
+    
+    [Column('frm_name', [], 255)]
+    Ffrm_name: Nullable<string>;
+    
+    [Column('nodeType_id', [])]
+    FnodeType_id: Nullable<Integer>;
+    
+    [Column('parentnode_id', [])]
+    Fparentnode_id: Nullable<Integer>;
+    
+    [Column('state', [], 255)]
+    Fstate: Nullable<string>;
+    
+    [Column('img_id', [])]
+    Fimg_id: Nullable<Integer>;
+    
+    [Column('id', [TColumnProp.Required, TColumnProp.NoInsert, TColumnProp.NoUpdate])]
+    Fid: Integer;
+    
+    [Column('imgListName', [], 255)]
+    FimgListName: Nullable<string>;
+  public
+    property bh: Nullable<string> read Fbh write Fbh;
+    property menu_name: Nullable<string> read Fmenu_name write Fmenu_name;
+    property frm_name: Nullable<string> read Ffrm_name write Ffrm_name;
+    property nodeType_id: Nullable<Integer> read FnodeType_id write FnodeType_id;
+    property parentnode_id: Nullable<Integer> read Fparentnode_id write Fparentnode_id;
+    property state: Nullable<string> read Fstate write Fstate;
+    property img_id: Nullable<Integer> read Fimg_id write Fimg_id;
+    property id: Integer read Fid write Fid;
+    property imgListName: Nullable<string> read FimgListName write FimgListName;
+  end;
+  
+  TDicDictionary = class
+  private
+    Fmenu: TmenuTableDictionary;
+    function Getmenu: TmenuTableDictionary;
+  public
+    destructor Destroy; override;
+    property menu: TmenuTableDictionary read Getmenu;
+  end;
+  
+  TmenuTableDictionary = class
+  private
+    Fbh: TDictionaryAttribute;
+    Fmenu_name: TDictionaryAttribute;
+    Ffrm_name: TDictionaryAttribute;
+    FnodeType_id: TDictionaryAttribute;
+    Fparentnode_id: TDictionaryAttribute;
+    Fstate: TDictionaryAttribute;
+    Fimg_id: TDictionaryAttribute;
+    Fid: TDictionaryAttribute;
+    FimgListName: TDictionaryAttribute;
+  public
+    constructor Create;
+    property bh: TDictionaryAttribute read Fbh;
+    property menu_name: TDictionaryAttribute read Fmenu_name;
+    property frm_name: TDictionaryAttribute read Ffrm_name;
+    property nodeType_id: TDictionaryAttribute read FnodeType_id;
+    property parentnode_id: TDictionaryAttribute read Fparentnode_id;
+    property state: TDictionaryAttribute read Fstate;
+    property img_id: TDictionaryAttribute read Fimg_id;
+    property id: TDictionaryAttribute read Fid;
+    property imgListName: TDictionaryAttribute read FimgListName;
+  end;
+  
+function Dic: TDicDictionary;
+
+implementation
+
+var
+  __Dic: TDicDictionary;
+
+function Dic: TDicDictionary;
+begin
+  if __Dic = nil then __Dic := TDicDictionary.Create;
+  result := __Dic
+end;
+
+{ TDicDictionary}
+
+destructor TDicDictionary.Destroy;
+begin
+  if Fmenu <> nil then Fmenu.Free;
+  inherited;
+end;
+
+function TDicDictionary.Getmenu: TmenuTableDictionary;
+begin
+  if Fmenu = nil then Fmenu := TmenuTableDictionary.Create;
+  result := Fmenu;
+end;
+
+{ TmenuTableDictionary}
+
+constructor TmenuTableDictionary.Create;
+begin
+  inherited;
+  Fbh := TDictionaryAttribute.Create('bh');
+  Fmenu_name := TDictionaryAttribute.Create('menu_name');
+  Ffrm_name := TDictionaryAttribute.Create('frm_name');
+  FnodeType_id := TDictionaryAttribute.Create('nodeType_id');
+  Fparentnode_id := TDictionaryAttribute.Create('parentnode_id');
+  Fstate := TDictionaryAttribute.Create('state');
+  Fimg_id := TDictionaryAttribute.Create('img_id');
+  Fid := TDictionaryAttribute.Create('id');
+  FimgListName := TDictionaryAttribute.Create('imgListName');
+end;
+
+initialization
+  RegisterEntity(Tmenu);
+
+finalization
+  if __Dic <> nil then __Dic.Free
+
+end.

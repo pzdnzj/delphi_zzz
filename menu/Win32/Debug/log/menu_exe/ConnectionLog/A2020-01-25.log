@@ -1,0 +1,15 @@
+menu.exe: 00001F44: 22:36:26 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: selectionchange
+menu.exe: 0000273C: 22:36:26 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: selectionchange
+menu.exe: 0000273C: 22:36:26 [127.0.0.1]:Sequence sent from cache:  SeqId: 8
+menu.exe: 0000273C: 22:36:26 [127.0.0.1]:Processed: Id: 8, Evt: selectionchange, [WJe5hcWmOr10566DAD7]
+menu.exe: 00001BC8: 22:36:26 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: selectionchange
+menu.exe: 00001F44: 22:36:28 [127.0.0.1]:Sequence sent from cache:  SeqId: 8
+menu.exe: 00001F44: 22:36:28 [127.0.0.1]:Processed: Id: 8, Evt: selectionchange, [WJe5hcWmOr10566DAD7]
+menu.exe: 00001BC8: 22:36:28 [127.0.0.1]:Sequence sent from cache:  SeqId: 8
+menu.exe: 00001BC8: 22:36:29 [127.0.0.1]:Processed: Id: 8, Evt: selectionchange, [WJe5hcWmOr10566DAD7]
+menu.exe: 00001A78: 22:42:07 [127.0.0.1]:Failed Sequence Recovery: SeqId: 12, Event: selectionchange
+menu.exe: 00001A78: 22:42:07 [127.0.0.1]:Sequence sent from cache:  SeqId: 12
+menu.exe: 00001A78: 22:42:08 [127.0.0.1]:Processed: Id: 12, Evt: selectionchange, [Zctnikxfi510566DC45]
+menu.exe: 000016A4: 22:55:04 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: selectionchange
+menu.exe: 000016A4: 22:55:06 [127.0.0.1]:Sequence sent from cache:  SeqId: 8
+menu.exe: 000016A4: 22:55:06 [127.0.0.1]:Processed: Id: 8, Evt: selectionchange, [gDCE4IVAqI10566E02D]

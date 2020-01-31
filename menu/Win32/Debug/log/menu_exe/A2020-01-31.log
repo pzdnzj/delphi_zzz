@@ -1,0 +1,17 @@
+menu.exe: 000016C8: 12:59:22 []:>--------------------------------------------------------------<
+menu.exe: 000016C8: 12:59:22 [TUniServerModule]:Server First Init.
+menu.exe: 000016C8: 12:59:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 000016C8: 12:59:22 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 000024F0: 12:59:58 [127.0.0.1]:EClassNotFound : Class tuniframe_ry not found : Addr: $0046750A
+menu.exe: 00001C58: 13:00:10 [127.0.0.1]:EClassNotFound : Class tuniframe_ry not found : Addr: $0046750A
+menu.exe: 000016C8: 13:00:25 [TUniServerModule]:Shutting Down Server.
+menu.exe: 000016C8: 13:00:25 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 000016C8: 13:00:26 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 000016C8: 13:00:26 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 000016C8: 13:00:26 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 000016C8: 13:00:26 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 000016C8: 13:00:26 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 000016C8: 13:00:26 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 000016C8: 13:00:26 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 000016C8: 13:00:26 []:<-------------------------------------------------------------->
+menu.exe: 000016C8: 13:00:26 [Terminated]:Exit Code: 0

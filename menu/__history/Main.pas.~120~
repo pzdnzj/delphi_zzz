@@ -1,0 +1,204 @@
+unit Main;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  uniGUITypes, uniGUIAbstractClasses, uniGUIClasses, uniGUIRegClasses,
+  uniGUIForm, uniGUIBaseClasses, uniTreeView, uniTreeMenu, uniButton, Data.DB,
+  uniBasicGrid, uniDBGrid, Aurelius.Bind.BaseDataset, Aurelius.Bind.Dataset,
+  uniMemo, Datasnap.DBClient, uniPageControl, uniLabel, uniToolBar, uniPanel,
+  uniBitBtn, uniMenuButton, Vcl.Menus, uniMainMenu;
+
+type
+  TMainForm = class(TUniForm)
+    UniToolBar1: TUniToolBar;
+    UniToolButton1: TUniToolButton;
+    UniToolButton2: TUniToolButton;
+    UniToolButton3: TUniToolButton;
+    UniToolButton4: TUniToolButton;
+    UniToolButton5: TUniToolButton;
+    UniToolButton6: TUniToolButton;
+    UniToolButton7: TUniToolButton;
+    UniToolButton8: TUniToolButton;
+    UniToolButton9: TUniToolButton;
+    UniToolButton10: TUniToolButton;
+    utm: TUniTreeMenu;
+    UniPanel1: TUniPanel;
+    UniPanel2: TUniPanel;
+    upg: TUniPageControl;
+    UniPanel3: TUniPanel;
+    UniButton1: TUniButton;
+    UniPanel4: TUniPanel;
+    UniMenuButton1: TUniMenuButton;
+    UniTabSheet1: TUniTabSheet;
+    userPopupMenu: TUniPopupMenu;
+    a1: TUniMenuItem;
+    b1: TUniMenuItem;
+    procedure utmSelectionChange(Sender: TObject);
+    procedure upgChange(Sender: TObject);
+    procedure UniButton1Click(Sender: TObject);
+    procedure UniToolButton1Click(Sender: TObject);
+    procedure a1Click(Sender: TObject);
+  private
+    { Private declarations }
+    function gettab(apg: TUniPageControl; acaption: string): TUniTabSheet;
+    procedure tabsheetclose(Sender: TObject; var AllowClose: Boolean);
+  public
+    { Public declarations }
+  end;
+
+function MainForm: TMainForm;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication,uPubModule,
+  uMenu, uniGUIFrame; 
+
+function MainForm: TMainForm;
+begin
+  Result := TMainForm(UniMainModule.GetFormInstance(TMainForm));
+end;
+
+{ TMainForm }
+
+procedure TMainForm.a1Click(Sender: TObject);
+var
+  frame:TUniFrame;
+  tt:TUniTabSheet;
+  I: integer;
+begin
+  with upg do
+  begin
+    for I := 0  to upg.PageCount-1 do
+    begin
+       if upg.Pages[i].Caption = '人员管理' then
+         begin
+           ActivePageIndex := i;
+           exit;
+         end;
+    end;
+
+  end;
+  tt := TUniTabSheet.Create(upg);
+  with tt do
+  begin
+    PageControl := upg;
+    Caption :='人员管理';
+    Closable := True;
+  end;
+
+  frame := tuniframeclass(FindClass('tuniframe_ry')).Create(tt);
+  with frame do
+  begin
+    Parent := tt;
+    Align := alClient;
+  end;
+  upg.ActivePage := tt;
+end;
+
+function TMainForm.gettab(apg: TUniPageControl; acaption: string): TUniTabSheet;
+begin
+  Result := TUniTabSheet.Create(apg);
+  with Result do
+  begin
+    PageControl := apg;
+    Caption := acaption;
+  end;
+end;
+
+procedure TMainForm.tabsheetclose(Sender: TObject; var AllowClose: Boolean);
+var
+  N :TUniTreeNode;
+begin
+  if sender is TUniTabSheet then
+  begin
+    n := (Sender as TUniTabSheet).data;
+    if n is TUniTreeNode then
+       (n as TUniTreeNode).Data := nil;
+  end;
+
+  if upg.PageCount = 1 then
+  begin
+    utm.Selected := nil;
+  end;
+end;
+
+procedure TMainForm.UniButton1Click(Sender: TObject);
+begin
+  utm.Micro := not utm.Micro;
+end;
+
+procedure TMainForm.UniToolButton1Click(Sender: TObject);
+begin
+  utm.Micro := not utm.Micro;
+end;
+
+procedure TMainForm.upgChange(Sender: TObject);
+var
+  t:TUniTabSheet;
+  n:TUniTreeNode;
+begin
+  t := upg.ActivePage;
+  if Assigned(t) then
+    begin
+      n := t.data;
+      utm.Selected := n;
+    end;
+end;
+
+procedure TMainForm.utmSelectionChange(Sender: TObject);
+var
+  N: TUniTreeNode;
+  T: TUniTabSheet;
+  frm:tuniframe ;
+  frmname:string;
+  menu:TMymenu;
+begin
+ 
+  N := utm.Selected;
+
+  if Assigned(n) and n.IsLeaf then
+  begin
+    if n.data = nil then
+    begin
+      t := gettab(upg,n.text);
+      t.ImageIndex := n.ImageIndex;
+      t.Closable := True;
+      n.Data := t;
+      t.Data := n;
+      t.OnClose := tabsheetclose;
+      try
+        menu := TMymenu.Create;
+        //从数据库中 根据N.text（菜单名 menu_name） 获取 frmname
+        frmname := menu.getframname_From_menuname(n.text); // 需要修改 为nil 报错
+        if frmname <> 'frm_null' then
+          begin
+            frm := tuniframeclass(findclass(frmname)).Create(t);
+            with frm do
+            begin 
+              Parent := t;
+              Align := alClient;
+            end;
+          end;
+      finally
+        menu.Free;
+      end;
+    end
+    else
+    begin
+      T := n.Data;
+    end;
+    upg.ActivePage := t;  
+  end;
+
+end;
+
+initialization
+  RegisterAppFormClass(TMainForm);
+
+end.
+

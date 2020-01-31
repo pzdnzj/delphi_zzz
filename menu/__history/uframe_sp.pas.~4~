@@ -1,0 +1,25 @@
+unit uframe_sp;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIFrame;
+
+type
+  tuniframe3 = class(TUniFrame)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.dfm}
+
+initialization
+  RegisterClass(tuniframe3);
+
+end.

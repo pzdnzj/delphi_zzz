@@ -1,0 +1,15 @@
+menu.exe: 00003548: 13:26:57 []:>--------------------------------------------------------------<
+menu.exe: 00003548: 13:26:57 [TUniServerModule]:Server First Init.
+menu.exe: 00003548: 13:26:58 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00003548: 13:26:58 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00003548: 13:27:55 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00003548: 13:27:55 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00003548: 13:27:55 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00003548: 13:27:55 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00003548: 13:27:55 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00003548: 13:27:55 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00003548: 13:27:55 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00003548: 13:27:55 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00003548: 13:27:55 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00003548: 13:27:55 []:<-------------------------------------------------------------->
+menu.exe: 00003548: 13:27:55 [Terminated]:Exit Code: 0

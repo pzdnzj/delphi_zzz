@@ -1,0 +1,9 @@
+menu.exe: 000021B8: 11:55:35 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: selectionchange
+menu.exe: 00001BA8: 11:55:35 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: selectionchange
+menu.exe: 000021B8: 11:55:35 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+menu.exe: 000021B8: 11:55:37 [127.0.0.1]:Processed: Id: 9, Evt: selectionchange, [HaiWhZglOf10567B3C2]
+menu.exe: 00001BA8: 11:55:37 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+menu.exe: 00001BA8: 11:55:37 [127.0.0.1]:Processed: Id: 9, Evt: selectionchange, [HaiWhZglOf10567B3C2]
+menu.exe: 00000824: 12:09:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: selectionchange
+menu.exe: 00000824: 12:09:59 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+menu.exe: 00000824: 12:09:59 [127.0.0.1]:Processed: Id: 9, Evt: selectionchange, [h6O5Aq4vZJ10567B7B9]

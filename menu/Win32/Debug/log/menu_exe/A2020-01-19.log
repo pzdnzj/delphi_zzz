@@ -1,0 +1,32 @@
+menu.exe: 00001C2C: 18:12:17 []:>--------------------------------------------------------------<
+menu.exe: 00001C2C: 18:12:17 [TUniServerModule]:Server First Init.
+menu.exe: 00001C2C: 18:12:17 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00001C2C: 18:12:17 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002808: 18:12:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ytRYbU4lfV1055D572C ) : Addr: $007D093A
+menu.exe: 00001C2C: 18:12:45 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00001C2C: 18:12:45 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00001C2C: 18:12:46 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00001C2C: 18:12:46 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00001C2C: 18:12:46 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00001C2C: 18:12:46 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00001C2C: 18:12:46 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00001C2C: 18:12:46 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00001C2C: 18:12:46 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00001C2C: 18:12:46 []:<-------------------------------------------------------------->
+menu.exe: 00001C2C: 18:12:46 [Terminated]:Exit Code: 0
+menu.exe: 00002810: 18:13:05 []:>--------------------------------------------------------------<
+menu.exe: 00002810: 18:13:05 [TUniServerModule]:Server First Init.
+menu.exe: 00002810: 18:13:05 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+menu.exe: 00002810: 18:13:05 [TUniServerModule]:HTTP Server Started on Port: 8077
+menu.exe: 00002610: 18:13:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: EiIvU4bFWj1055D6BF2 ) : Addr: $007D093A
+menu.exe: 00002810: 18:14:58 [TUniServerModule]:Shutting Down Server.
+menu.exe: 00002810: 18:14:58 [TUniServerModule]:Stopping HTTP Server.
+menu.exe: 00002810: 18:14:59 [TUniServerModule]:HTTP Server Stopped.
+menu.exe: 00002810: 18:14:59 [TUniGUISessionManager]:Terminating Session manager.
+menu.exe: 00002810: 18:14:59 [TUniGUISessionManager]:Stopping Cache Eraser...
+menu.exe: 00002810: 18:14:59 [TUniGUISessionManager]:Cache Eraser Stopped.
+menu.exe: 00002810: 18:14:59 [TUniGUISessionManager]:Destroying Worker Threads.
+menu.exe: 00002810: 18:14:59 [TUniGUISessionManager]:Session manager terminated.
+menu.exe: 00002810: 18:14:59 [TUniServerModule]:Server Shutdown Completed.
+menu.exe: 00002810: 18:14:59 []:<-------------------------------------------------------------->
+menu.exe: 00002810: 18:14:59 [Terminated]:Exit Code: 0
